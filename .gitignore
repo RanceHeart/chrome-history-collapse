@@ -1,0 +1,10 @@
+*
+!.gitignore
+!README.md
+!LICENSE
+!AGENTS.md
+!plan.py
+!apply.mjs
+!test_plan.py
+!package.json
+!package-lock.json

@@ -1,0 +1,13 @@
+{
+  "name": "chrome-history-collapse",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Agent-friendly recipes for collapsing long Chrome pagination histories",
+  "type": "module",
+  "scripts": {
+    "test": "python3 -m unittest -v test_plan.py"
+  },
+  "dependencies": {
+    "playwright-core": "^1.58.0"
+  }
+}
