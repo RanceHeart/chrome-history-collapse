@@ -1,5 +1,7 @@
 # Chrome History Collapse
 
+[English](README.md) | [简体中文](README.zh-CN.md)
+
 An agent-ready recipe for turning long pagination histories into one retained page per group. Plans are local, deletion is explicit, and execution uses Chrome's own history interface.
 
 Supported patterns are numeric fragments (`/read/demo#1`, `#2`, ...) and an explicitly named pagination query parameter (`?page=1`, `?page=2`, ...). Each run is restricted to one exact hostname. Different document paths and different search filters remain separate. Groups need at least 10 distinct page numbers by default. Page 1 wins; otherwise an existing unnumbered URL wins, then the lowest available page number. This retains one **page URL**, not necessarily one visit across every date.
